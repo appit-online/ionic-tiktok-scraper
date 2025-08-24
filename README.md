@@ -27,15 +27,13 @@ A lightweight library to **search TikTok videos, fetch user details, and downloa
 ### 📦 Installation
 
 ```bash
-npm install ionic-tiktok-download
-
 ionic cordova plugin add cordova-plugin-advanced-http
-npm install ionic-tiktok-download --save
+npm install ionic-tik-tok-download --save
 ```
 
 ### Using the library
 ```
-import Tiktok from 'ionic-tiktok-download';
+import Tiktok from 'ionic-tik-tok-download';
 
 const tiktokUrl = 'https://vm.tiktok.com/ZNHChcc/';
 
@@ -90,7 +88,7 @@ try {
 You can fetch only specific fields from the TikTok video by passing a `keys` array while keeping parsing enabled (`parse: true`
 
 ``` javascript
-import Tiktok from 'ionic-tiktok-download';
+import Tiktok from 'ionic-tik-tok-download';
 
 const tiktokUrl = 'https://www.tiktok.com/@shot/video/7539590113288?_r=1&_t=ZN-8z8m3Qj3X5a';
 
@@ -110,7 +108,7 @@ try {
 
 ### Raw TikTok API data without parsing
 ``` javascript
-import Tiktok from 'ionic-tiktok-download';
+import Tiktok from 'ionic-tik-tok-download';
 
 const tiktokUrl = 'https://vm.tiktok.com/ZN2hcc/';
 

@@ -1,5 +1,5 @@
 {
-  "name": "ionic-tiktok-download",
+  "name": "ionic-tik-tok-download",
   "version": "1.0.0",
   "description": "Get TikTok posts and reels without API or Cookie key in ionic apps",
   "main": "lib/index.js",
