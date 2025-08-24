@@ -1,4 +1,4 @@
-# [ionic-tiktok-download: Ionic](https://github.com/appit-online/ionic-tiktok-download)
+# [ionic-tik-download: Ionic](https://github.com/appit-online/ionic-tik-download)
 
 A lightweight library to **search TikTok videos, fetch user details, and download media**, built for **Ionic** and **Cordova** environments with native HTTP support.
 
@@ -28,12 +28,12 @@ A lightweight library to **search TikTok videos, fetch user details, and downloa
 
 ```bash
 ionic cordova plugin add cordova-plugin-advanced-http
-npm install ionic-tik-tok-download --save
+npm install ionic-tik-download --save
 ```
 
 ### Using the library
 ```
-import Tiktok from 'ionic-tik-tok-download';
+import Tiktok from 'ionic-tik-download';
 
 const tiktokUrl = 'https://vm.tiktok.com/ZNHChcc/';
 
@@ -88,7 +88,7 @@ try {
 You can fetch only specific fields from the TikTok video by passing a `keys` array while keeping parsing enabled (`parse: true`
 
 ``` javascript
-import Tiktok from 'ionic-tik-tok-download';
+import Tiktok from 'ionic-tik-download';
 
 const tiktokUrl = 'https://www.tiktok.com/@shot/video/7539590113288?_r=1&_t=ZN-8z8m3Qj3X5a';
 
@@ -108,7 +108,7 @@ try {
 
 ### Raw TikTok API data without parsing
 ``` javascript
-import Tiktok from 'ionic-tik-tok-download';
+import Tiktok from 'ionic-tik-download';
 
 const tiktokUrl = 'https://vm.tiktok.com/ZN2hcc/';
 
@@ -129,4 +129,4 @@ try {
 
 Apache Version 2.0
 
-See [LICENSE](https://github.com/appit-online/ionic-tiktok-download/blob/master/LICENSE)
+See [LICENSE](https://github.com/appit-online/ionic-tik-download/blob/master/LICENSE)

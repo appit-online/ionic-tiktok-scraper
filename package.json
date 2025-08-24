@@ -1,5 +1,5 @@
 {
-  "name": "ionic-tik-tok-download",
+  "name": "ionic-tik-download",
   "version": "1.0.0",
   "description": "Get TikTok posts and reels without API or Cookie key in ionic apps",
   "main": "lib/index.js",
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/appit-online/ionic-tiktok-download.git"
+    "url": "git+https://github.com/appit-online/ionic-tik-download.git"
   },
   "keywords": [
     "tiktok",
@@ -45,9 +45,9 @@
     "lib/**/*"
   ],
   "bugs": {
-    "url": "https://github.com/appit-online/ionic-tiktok-download/issues"
+    "url": "https://github.com/appit-online/ionic-tik-download/issues"
   },
-  "homepage": "https://github.com/appit-online/ionic-tiktok-download#readme",
+  "homepage": "https://github.com/appit-online/ionic-tik-download#readme",
   "devDependencies": {
     "@types/jest": "^30.0.0",
     "@types/node": "^24.0.7",
