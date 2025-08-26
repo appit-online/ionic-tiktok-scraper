@@ -18,7 +18,6 @@ export class TikTokService {
   }
 
   private async getTikId(url: string): Promise<string | null> {
-
     const REGEXP = /(?:video|photo|user)\/(\d+)/;
     const valid = url.match(REGEXP);
     if (valid) {
